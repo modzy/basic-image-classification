@@ -1,0 +1,77 @@
+:!toc:
+:doctype: article
+:icons: font
+:source-highlighter: highlightjs
+:docname: Open Source Basic Image Classification Model
+
+
+
+
+++++
+<div align="center">
+<h1>Open Source Basic Image Classification Model</h1>
+<br>
+<br>
+<img  src="https://www.modzy.com/wp-content/uploads/2019/10/modzy-logo-tm.svg" alt="Modzy" width="350" height="auto">
+<br>
+<br>
+<br>
+<br>
+<p><b>This repository contains a basic image classification model implemented with the PyTorch framework.</b></p>
+<br>
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/modzy/sdk-python">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/modzy/sdk-python">
+<img alt="GitHub Release Date" src="https://img.shields.io/github/issues-raw/modzy/sdk-python">
+</div>
+<br>
+<br>
+<div align="center">
+<a href=https://models.modzy.com/docs/how-to-guides/job-lifecycle style="text-decoration:none">Packaged open source model</a> |
+<!--update url to git repo-->
+<a href=https://models.modzy.com/docs/how-to-guides/api-keys style="text-decoration:none">Template</a> |
+<!--update url to git repo-->
+<a href=https://models.modzy.com/docs/model-packaging/model-packaging-python-template style="text-decoration:none">Documentation</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div align="left">
+++++
+
+== Introduction
+
+This repository contains a basic image classification model implemented in PyTorch.
+
+This model is built with a resnet 101 architecture and trained on the link:http://www.image-net.org/[ImageNet] dataset.
+
+For more information on the implementation of this model, visit PyTorch's link:https://pytorch.org/docs/stable/torchvision/models.html[Torchvision Models] page.
+
+== Requirements
+
+To run the `main.py` script:
+
+- Install link:https://www.python.org/downloads/[Python 3.6 or greater].
+- Install the version of link:https://pytorch.org/[PyTorch] that fits your machine's resources (i.e., install CPU version if you do not use GPUs).
+- Install link:https://pypi.org/project/Pillow/2.2.2/[Pillow Imaging Library].
+
+== Installation
+
+Clone the repository:
+
+`git clone <insert repo URL here>`
+// update url to git repo
+
+== Usage
+
+Once your environment is set up and the requirements are installed:
+
+Run the `download_weights.py` script to download the weights fromt the PyTorch Torchvision models library:
+
+`python download_weights.py`
+
+Run the `main.py` script and add the `image_name` and `labels` arguments:
+
+`python main.py dog.jpg imagenet_classes.txt`
+
+The `imagenet_classes.txt` holds all classes for ImageNet, and the `./data` directory contains a sample image.
