@@ -26,7 +26,7 @@
 <br>
 <br>
 <div align="center">
-<a href=https://models.modzy.com/docs/how-to-guides/job-lifecycle style="text-decoration:none">Packaged open source model</a> |
+<a href=https://models.modzy.com/docs/how-to-guides/job-lifecycle style="text-decoration:none">Packaged Basic Image Classification Model</a> |
 <!--update url to git repo-->
 <a href=https://models.modzy.com/docs/how-to-guides/api-keys style="text-decoration:none">Template</a> |
 <!--update url to git repo-->
