@@ -64,7 +64,7 @@ Clone the repository:
 
 == Usage
 
-Once your environment is set up and the requirements are installed:
+Once your environment is set up and the requirements are installed,
 
 Run the `download_weights.py` script to download the weights fromt the PyTorch Torchvision models library:
 
