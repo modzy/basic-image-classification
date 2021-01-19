@@ -17,7 +17,7 @@ args = parser.parse_args()
 # define data directories
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(ROOT, 'data')
-WEIGHTS_PATH = os.path.join(ROOT, 'weights/resnet101-5d3b4d8f.pth')
+WEIGHTS_PATH = os.path.join(ROOT, 'weights/resnet101_weights.pth')
 
 # define device variable to set model to the best available resource
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
